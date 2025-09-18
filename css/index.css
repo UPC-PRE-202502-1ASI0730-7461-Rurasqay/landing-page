@@ -1,0 +1,134 @@
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  /* outline: none; */
+  outline: #fff solid 1px;
+  box-shadow: none;
+}
+
+div.hero-section {
+  min-height: 90vh;
+  background-image: url("../assets/hero-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.arrow-right-icon {
+  width: 20px;
+  height: auto;
+}
+
+div.callout-card-container {
+  border: 1px solid;
+  border-color: #fedbda;
+}
+
+div.callout-card-container-variant {
+  border: 1px solid;
+  border-color: #d4e6f3;
+}
+
+.services-section {
+  background: linear-gradient(to bottom, #ffffff 60%, #e9fcfd 100%);
+}
+
+.service-section-problems {
+  max-width: 532px;
+}
+
+.service-section-solution {
+  max-width: 581px;
+}
+
+p.services-section-description {
+  max-width: 900px;
+}
+
+.service-section-callout-card {
+  background-color: #fedbda;
+}
+
+.service-section-callout-card-variant {
+  background-color: #0b98e2;
+}
+
+.service-section-callout-card-second-variant {
+  background-color: #f97415;
+}
+
+.service-section-callout-card-variant-2 {
+  background-color: #e9fcfd;
+}
+
+.service-section-callout-card-title {
+  font-size: 1rem;
+}
+
+.service-section-callout-card-description {
+  font-size: 0.875rem;
+}
+
+.impact-section-text {
+  font-size: 0.8rem;
+}
+
+.impact-section {
+  max-width: 1000px;
+}
+
+.services-section-part2-tag {
+  font-size: 0.75rem;
+  padding: 0.5rem 0.625rem;
+}
+
+.mission-vision-section {
+  background: linear-gradient(to bottom, #e9fcfd 0%, #ffffff 50%);
+}
+
+.plan-section-button {
+  background-color: #5f718d;
+}
+.plan-section-button:hover {
+  background-color: #f97415;
+}
+
+.plan-section-recommended {
+  background-color: #f97415;
+  margin: 0;
+  padding: 0.3125rem 0.625rem;
+  font-size: 0.75rem;
+}
+
+.contact-section-input {
+  all: unset;
+}
+
+.contact-section-input {
+  background: none;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: none;
+  color: #ffffff;
+}
+
+.contact-section-divider-line {
+  border: 0.5px solid #ffffff;
+  max-width: 345px;
+  width: 100%;
+}
+
+a.footer-brand {
+  all: unset;
+}
+
+a.footer-brand:hover {
+  cursor: pointer;
+}
