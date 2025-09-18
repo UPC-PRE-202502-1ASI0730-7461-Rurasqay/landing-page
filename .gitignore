@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+package.json
+package-lock.json
+scss/
+.prettierrc.json
+eslint.config.js
+.vscode/
