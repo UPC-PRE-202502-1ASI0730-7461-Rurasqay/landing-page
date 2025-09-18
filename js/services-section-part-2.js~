@@ -1,0 +1,40 @@
+import { animate, inView } from "./lib/motion.js";
+import TargetValue from "./utils/tarjet-value.js";
+
+inView(".meditrack-device-image", (element) => {
+  console.log("Element in view:", element);
+  animate(
+    element,
+    { opacity: 1 },
+    {
+      duration: 0.9,
+      easing: [0.17, 0.55, 0.55, 1],
+    },
+  );
+
+  return () => animate(element, { opacity: 0 });
+});
+
+const diviceFeature1 = new TargetValue(
+  document.querySelector(".meditrack-device-feature-1"),
+  -50,
+  0,
+  0.9,
+);
+
+const diviceFeature2 = new TargetValue(
+  document.querySelector(".meditrack-device-feature-2"),
+  -50,
+  0,
+  0.9,
+);
+
+inView(".services-section-part2", () => {
+  diviceFeature1.animateMoveIn();
+  return diviceFeature1.animateMoveOut;
+});
+
+inView(".services-section-part2", () => {
+  diviceFeature2.animateMoveIn();
+  return diviceFeature2.animateMoveOut;
+});
