@@ -143,8 +143,9 @@ document.addEventListener("DOMContentLoaded", function () {
       "footer-terms": "Terms of Service",
       "footer-cookies": "Cookies",
       "footer-security": "Security",
-      "footer-copyright":
-        "© 2025 AlpacaFlow. All rights reserved. Made with ❤️ to improve lives.",
+      "footer-copyright-part-1":
+        "© 2025 AlpacaFlow. All rights reserved. Made with",
+      "footer-copyright-part-2": "to improve lives.",
     },
     es: {
       // Navbar
@@ -241,7 +242,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "plan-2-title": "Premium",
       "plan-2-recommended": "Recomendado",
       "plan-2-price": "20$/mes",
-      "plan-2-feature-1": "Monitoreo básico de signos vitales",
+      "plan-2-feature-1": "Monitoreo de signos vitales",
       "plan-2-feature-2": "Alertas en tiempo real",
       "plan-2-feature-3": "Acceso a la plataforma web",
       "plan-2-feature-4": "Informes personalizados",
@@ -285,8 +286,9 @@ document.addEventListener("DOMContentLoaded", function () {
       "footer-terms": "Términos de Servicio",
       "footer-cookies": "Cookies",
       "footer-security": "Seguridad",
-      "footer-copyright":
-        "© 2025 AlpacaFlow. Todos los derechos reservados. Hecho con ❤️ para mejorar vidas.",
+      "footer-copyright-part-1":
+        "© 2025 AlpacaFlow. Todos los derechos reservados. Hecho con",
+      "footer-copyright-part-2": "para mejorar vidas.",
     },
   };
 
