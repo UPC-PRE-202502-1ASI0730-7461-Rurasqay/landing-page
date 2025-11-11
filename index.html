@@ -76,18 +76,17 @@
                 >
               </li>
               <li class="nav-item me-5">
-                <a
-                  class="nav-link active font-noto-semibold text-light"
-                  aria-current="page"
-                  href="#contact"
-                  data-i18n="nav-contact"
-                  >Contacto</a
-                >
-              </li>
-              <li class="nav-item me-5">
                 <button class="btn btn-outline-light" id="language-toogle">
                   EN
                 </button>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://meditrack-web.netlify.app"
+                  class="btn btn-danger font-noto-semibold text-white"
+                  data-i18n="nav-cta"
+                  >Comenzar Ahora</a
+                >
               </li>
             </ul>
           </div>
@@ -467,6 +466,20 @@
             geriátrico.
           </p>
         </div>
+        <!-- Video About the Product -->
+        <div class="d-flex justify-content-center mb-4">
+          <div class="shadow rounded-3 p-3 bg-light" style="max-width: 800px; width: 100%">
+            <div class="ratio ratio-16x9 bg-primary rounded-3 d-flex align-items-center justify-content-center">
+              <div class="text-center text-white">
+                <i data-lucide="play-circle" style="width: 64px; height: 64px"></i>
+                <p class="font-inter-semibold mt-3 mb-0" data-i18n="product-video-placeholder">
+                  Video: Descubre MediTrack
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <div
           class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4"
         >
@@ -821,6 +834,138 @@
         </div>
       </div>
     </section>
+    <!--Team Section-->
+    <section id="team" class="container py-5">
+      <div class="d-flex flex-column text-center my-5">
+        <div class="d-flex justify-content-center mb-2">
+          <p
+            class="border rounded-pill font-inter-medium services-section-part2-tag"
+            data-i18n="team-tag"
+          >
+            Nuestro Equipo
+          </p>
+        </div>
+        <h2
+          class="font-inter-bold fs-2 text-dark"
+          data-i18n="team-title"
+        >
+          Conoce al Equipo de <span class="text-primary">AlpacaFlow</span>
+        </h2>
+        <p
+          class="on-background-variant font-inter-regular mx-auto px-1 services-section-description"
+          data-i18n="team-description"
+        >
+          Profesionales apasionados comprometidos con mejorar el cuidado geriátrico a través de la tecnología.
+        </p>
+      </div>
+      
+      <!-- Video About the Team -->
+      <div class="d-flex justify-content-center mb-5">
+        <div class="shadow rounded-3 p-4 bg-light" style="max-width: 800px; width: 100%">
+          <div class="ratio ratio-16x9 bg-secondary rounded-3 d-flex align-items-center justify-content-center">
+            <div class="text-center text-white">
+              <i data-lucide="play-circle" style="width: 64px; height: 64px"></i>
+              <p class="font-inter-semibold mt-3 mb-0" data-i18n="team-video-placeholder">
+                Video: Conoce a Nuestro Equipo
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Members -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4 justify-content-center">
+        <!-- Member 1 -->
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden">
+              <i data-lucide="user" class="text-white" style="width: 150px; height: 150px"></i>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title font-inter-bold" data-i18n="team-member-1-name">Marcelo Barrientos</h5>
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-1-role">
+                Estudiante de Ingeniería de Software
+              </p>
+              <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-1-bio">
+                Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Cuento con conocimientos técnicos en tecnologías de JavaScript.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Member 2 -->
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden; padding: 0">
+              <img src="./assets/Diego.jpeg" style="width: 100%; height: 100%; object-fit: cover"></img>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title font-inter-bold" data-i18n="team-member-2-name">Diego Rioja</h5>
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-2-role">
+                Estudiante de Ingeniería de Software
+              </p>
+              <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-2-bio">
+                Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Mentalidad para resolver problemas. Conocimiento básico de las funcionalidades de software.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Member 3 -->
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden; padding: 0">
+              <img src="./assets/joaquin.jpg" style="width: 100%; height: 100%; object-fit: cover"></img>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title font-inter-bold" data-i18n="team-member-3-name">Joaquin Cuba</h5>
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-3-role">
+                Estudiante de Ingeniería de Software
+              </p>
+              <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-3-bio">
+                Conocimientos en desarrollo web y CLI. Manejo de JavaScript, C++ y Python, con algo de experiencia en Go. Familiarizado con tecnologías front-end como HTML, CSS y TypeScript.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Member 4 -->
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden; padding: 0">
+              <img src="./assets/Gabriel.jpg" style="width: 100%; height: 100%; object-fit: cover"></img>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title font-inter-bold" data-i18n="team-member-4-name">Gabriel Rivera</h5>
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-4-role">
+                Estudiante de Ingeniería de Software
+              </p>
+              <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-4-bio">
+                He desarrollado proyectos en C++, Python, HTML y CSS. Actualmente estoy aprendiendo a realizar aplicaciones web usando el framework Angular y Vue. 
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Member 5 -->
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden">
+              <i data-lucide="user" class="text-white" style="width: 150px; height: 150px"></i>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title font-inter-bold" data-i18n="team-member-5-name">Jarod Cespedes</h5>
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-5-role">
+                Estudiante de Ingeniería de Software
+              </p>
+              <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-5-bio">
+                Conocimientos en desarrollo web front-end y back-end. Manejo de JavaScript, Python y C++. Familiarizado con frameworks como React y Node.js.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--Plans section-->
     <section id="plans" class="container">
       <h2
@@ -1097,90 +1242,39 @@
         </div>
       </div>
     </section>
-    <!--Contact-->
-    <section
-      id="contact"
-      class="bg-dark py-5"
-      style="border-bottom: 1px solid #5f718d"
-    >
+    <!--Subscribe Section-->
+    <section id="subscribe" class="bg-dark py-5" style="border-bottom: 1px solid #5f718d">
       <div class="container">
-        <div
-          class="row row-cols-1 row-cols-md-2 g-2 justify-content-start"
-          style="max-width: 996px; margin: 0 auto"
-        >
-          <div
-            class="d-flex flex-column my-2 services-section-title mx-auto"
-            style="max-width: 500px"
-          >
-            <h2
-              class="font-inter-extrabold fs-2 text-white"
-              data-i18n="contact-title"
-            >
-              Contáctanos para saber mas sobre
-              <span class="text-secondary">Meditrack</span>
+        <div class="row align-items-center justify-content-center" style="max-width: 996px; margin: 0 auto">
+          <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+            <h2 class="font-inter-extrabold fs-2 text-white mb-3" data-i18n="subscribe-title">
+              Comienza a Cuidar de tus <span class="text-secondary">Seres Queridos</span> Hoy
             </h2>
-            <p
-              class="text-white font-inter-regular mx-auto services-section-description fs-6"
-              data-i18n="contact-description"
-            >
-              Creemos en un futuro donde la tecnología mejore significativamente
-              la calidad de vida de nuestros adultos mayores.
+            <p class="text-white font-inter-regular fs-6" data-i18n="subscribe-description">
+              Únete a cientos de familias que ya confían en MediTrack para el cuidado continuo de sus adultos mayores.
             </p>
           </div>
-          <form
-            class="d-flex flex-column gap-4 mx-auto align-items-start"
-            style="max-width: 400px"
-          >
-            <div style="width: 100%">
-              <input
-                class="contact-section-input"
-                type="text"
-                name="name"
-                placeholder="Nombre"
-                data-i18n="contact-name-placeholder"
-              />
-              <div class="contact-section-divider-line"></div>
-            </div>
-            <div style="width: 100%">
-              <input
-                class="contact-section-input"
-                type="email"
-                name="email"
-                placeholder="email@mycompany.com"
-                data-i18n="contact-email-placeholder"
-              />
-              <div class="contact-section-divider-line"></div>
-            </div>
-            <div style="width: 100%">
-              <input
-                class="contact-section-input"
-                type="tel"
-                name="phone"
-                placeholder="+51 999 999 999"
-                data-i18n="contact-phone-placeholder"
-              />
-              <div class="contact-section-divider-line"></div>
-            </div>
-            <div style="width: 100%">
-              <input
-                class="contact-section-input"
-                type="text"
-                name="interest"
-                placeholder="Interés"
-                data-i18n="contact-interest-placeholder"
-              />
-              <div class="contact-section-divider-line"></div>
-            </div>
-            <button
-              href="#"
-              type="submit"
-              class="btn btn-secondary btn-lg font-noto-bold text-white gap-0 d-block"
-              style="font-size: 0.875rem"
+          <div class="col-lg-6 d-flex flex-column gap-3 align-items-center align-items-lg-end">
+            <a 
+              href="https://meditrack-web.netlify.app" 
+              class="btn btn-secondary btn-lg font-noto-bold text-white d-inline-flex align-items-center gap-2" 
+              style="font-size: 1rem; min-width: 250px; justify-content: center"
             >
-              <span data-i18n="contact-send-button">Enviar</span>
-              <i data-lucide="arrow-right" class="ms-2 arrow-right-icon"></i>
-            </button>
-          </form>
+              <span data-i18n="subscribe-start-free">Empezar Gratis</span>
+              <i data-lucide="arrow-right" style="width: 20px; height: 20px"></i>
+            </a>
+            <a 
+              href="https://meditrack-web.netlify.app" 
+              class="btn btn-outline-light btn-lg font-noto-bold d-inline-flex align-items-center gap-2" 
+              style="font-size: 1rem; min-width: 250px; justify-content: center"
+            >
+              <span data-i18n="subscribe-see-plans">Ver Planes Premium</span>
+              <i data-lucide="zap" style="width: 20px; height: 20px"></i>
+            </a>
+            <p class="text-white-50 font-inter-regular text-center text-lg-end mb-0" style="font-size: 0.75rem" data-i18n="subscribe-note">
+              * No se requiere tarjeta de crédito para empezar
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -1338,34 +1432,30 @@
               >
                 Legal
               </h3>
-              <p
-                class="font-inter-regular text-white m-0"
+              <a
+                href="./docs/politica-privacidad.pdf"
+                class="font-inter-regular text-white text-decoration-none m-0"
                 style="font-size: 0.75rem"
                 data-i18n="footer-privacy"
               >
-                Privacidad
-              </p>
-              <p
-                class="font-inter-regular text-white m-0"
+                Política de Privacidad
+              </a>
+              <a
+                href="./docs/terminos-condiciones.pdf"
+                class="font-inter-regular text-white text-decoration-none m-0"
                 style="font-size: 0.75rem"
-                data-i18n="footer-terms"
+                data-i18n="footer-terms-conditions"
               >
-                Términos de Servicio
-              </p>
-              <p
-                class="font-inter-regular text-white m-0"
-                style="font-size: 0.75rem"
-                data-i18n="footer-cookies"
-              >
-                Cookies
-              </p>
-              <p
-                class="font-inter-regular text-white m-0"
+                Términos y Condiciones
+              </a>
+              <a
+                href="./docs/proteccion-datos.pdf"
+                class="font-inter-regular text-white text-decoration-none m-0"
                 style="font-size: 0.75rem"
                 data-i18n="footer-security"
               >
-                Seguridad
-              </p>
+                Protección de datos
+              </a>
             </div>
           </div>
         </div>
@@ -1381,7 +1471,7 @@
         <i
           data-lucide="heart"
           class="text-secondary"
-          style="width: 12px; height: 12px vertical-align: middle"
+          style="width: 12px; height: 12px; vertical-align: middle"
         ></i>
         <span data-i18n="footer-copyright-part2"> para mejorar vidas. </span>
       </p>
