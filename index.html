@@ -79,7 +79,7 @@
                 <a
                   href="https://meditrack-web.netlify.app"
                   class="btn btn-danger font-noto-semibold text-white"
-                  data-i18n="nav-cta"
+                  data-i18n="nav-start-button"
                   >Comenzar Ahora</a
                 >
               </li>
@@ -847,9 +847,9 @@
         </div>
         <h2
           class="font-inter-bold fs-2 text-dark"
-          data-i18n="team-title"
+          data-i18n="team-header-title"
         >
-          Conoce al Equipo de <span class="text-primary">AlpacaFlow</span>
+          Conoce al equipo de RurasqaySoft
         </h2>
         <p
           class="on-background-variant font-inter-regular mx-auto px-1 services-section-description"
@@ -861,14 +861,13 @@
       
       <!-- Video About the Team -->
       <div class="d-flex justify-content-center mb-5">
-        <div class="shadow rounded-3 p-4 bg-light" style="max-width: 800px; width: 100%">
-          <div class="ratio ratio-16x9 bg-secondary rounded-3 d-flex align-items-center justify-content-center">
-            <div class="text-center text-white">
-              <i data-lucide="play-circle" style="width: 64px; height: 64px"></i>
-              <p class="font-inter-semibold mt-3 mb-0" data-i18n="team-video-placeholder">
-                Video: Conoce a Nuestro Equipo
-              </p>
-            </div>
+
+
+        <div id="videoModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <video id="videoPlayer" src="" controls >
+            </video>
           </div>
         </div>
       </div>
@@ -878,12 +877,12 @@
         <!-- Member 1 -->
         <div class="col">
           <div class="card shadow-sm h-100">
-            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden">
-              <i data-lucide="user" class="text-white" style="width: 150px; height: 150px"></i>
+            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden; padding: 0">
+              <img src="./assets/marcelo.jpg" style="width: 100%; height: 100%; object-fit: cover"></img>
             </div>
             <div class="card-body text-center">
               <h5 class="card-title font-inter-bold" data-i18n="team-member-1-name">Marcelo Barrientos</h5>
-              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-1-role">
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-role">
                 Estudiante de Ingeniería de Software
               </p>
               <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-1-bio">
@@ -901,7 +900,7 @@
             </div>
             <div class="card-body text-center">
               <h5 class="card-title font-inter-bold" data-i18n="team-member-2-name">Diego Rioja</h5>
-              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-2-role">
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-role">
                 Estudiante de Ingeniería de Software
               </p>
               <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-2-bio">
@@ -919,7 +918,7 @@
             </div>
             <div class="card-body text-center">
               <h5 class="card-title font-inter-bold" data-i18n="team-member-3-name">Joaquin Cuba</h5>
-              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-3-role">
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-role">
                 Estudiante de Ingeniería de Software
               </p>
               <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-3-bio">
@@ -937,7 +936,7 @@
             </div>
             <div class="card-body text-center">
               <h5 class="card-title font-inter-bold" data-i18n="team-member-4-name">Gabriel Rivera</h5>
-              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-4-role">
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-role">
                 Estudiante de Ingeniería de Software
               </p>
               <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-4-bio">
@@ -950,12 +949,12 @@
         <!-- Member 5 -->
         <div class="col">
           <div class="card shadow-sm h-100">
-            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden">
-              <i data-lucide="user" class="text-white" style="width: 150px; height: 150px"></i>
+            <div class="bg-secondary d-flex align-items-center justify-content-center" style="height: 250px; overflow: hidden; padding: 0">
+                <img src="./assets/jarod.jpg" style="width: 100%; height: 100%; object-fit: cover"></img>
             </div>
             <div class="card-body text-center">
               <h5 class="card-title font-inter-bold" data-i18n="team-member-5-name">Jarod Cespedes</h5>
-              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-5-role">
+              <p class="card-text text-primary font-inter-semibold" style="font-size: 0.875rem" data-i18n="team-member-role">
                 Estudiante de Ingeniería de Software
               </p>
               <p class="card-text on-background-variant" style="font-size: 0.75rem" data-i18n="team-member-5-bio">
@@ -964,6 +963,9 @@
             </div>
           </div>
         </div>
+
+        <button id="openModalBtn" data-i18n="modal-video">Ver Video</button>
+
       </div>
     </section>
     <!--Plans section-->
@@ -1247,8 +1249,8 @@
       <div class="container">
         <div class="row align-items-center justify-content-center" style="max-width: 996px; margin: 0 auto">
           <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
-            <h2 class="font-inter-extrabold fs-2 text-white mb-3" data-i18n="subscribe-title">
-              Comienza a Cuidar de tus <span class="text-secondary">Seres Queridos</span> Hoy
+            <h2 class="font-inter-extrabold fs-2 text-secondary mb-3" data-i18n="subscribe-title">
+              Comienza a Cuidar de tus seres queridos hoy
             </h2>
             <p class="text-white font-inter-regular fs-6" data-i18n="subscribe-description">
               Únete a cientos de familias que ya confían en MediTrack para el cuidado continuo de sus adultos mayores.
@@ -1300,14 +1302,14 @@
                   style="font-size: 1rem"
                   data-i18n="footer-brand-name"
                 >
-                  AlapacaFlow
+                  RurasqaySoft
                 </h2>
                 <p
                   class="font-inter-medium text-secondary m-0"
-                  style="font-size: 0.75rem"
+                  style="font-size: 0.75rem; text-align: center;"
                   data-i18n="footer-brand-platform"
                 >
-                  Meditrack plataforma
+                  Meditrack Platform
                 </p>
               </div>
             </a>
@@ -1465,15 +1467,15 @@
         style="font-size: 0.75rem"
         data-i18n="footer-copyright"
       >
-        <span data-i18n="footer-copyright-part1">
-          &copy; 2025 AlpacaFlow. Todos los derechos reservados. Hecho con
+        <span data-i18n="footer-copyright-part-1">
+          &copy; 2025 RurasqaySoft. Todos los derechos reservados. Hecho con
         </span>
         <i
           data-lucide="heart"
           class="text-secondary"
           style="width: 12px; height: 12px; vertical-align: middle"
         ></i>
-        <span data-i18n="footer-copyright-part2"> para mejorar vidas. </span>
+        <span data-i18n="footer-copyright-part-2"> para mejorar vidas. </span>
       </p>
     </footer>
     <!-- Bootstrap Bundle with Popper -->
@@ -1493,5 +1495,6 @@
     <script type="module" src="js/services-section-part-2.js"></script>
     <script type="module" src="js/plan-section.js"></script>
     <script type="module" src="js/i18n.js"></script>
+    <script type="module" src="js/modal.js"></script>
   </body>
 </html>
