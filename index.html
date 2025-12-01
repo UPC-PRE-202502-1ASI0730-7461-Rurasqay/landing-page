@@ -865,23 +865,26 @@
       
       <!-- Video About the Team -->
       <div class="d-flex justify-content-center mb-5">
+        <div class="shadow rounded-3 p-3 bg-light" style="max-width: 960px; width: 100%">
+          <div class="d-flex flex-column text-center mb-3">
+            <p class="border rounded-pill font-inter-medium services-section-part2-tag" data-i18n="team-tag">Nuestro Equipo</p>
+            <h3 class="font-inter-bold fs-4" data-i18n="team-about-title">About the Team</h3>
+            <p class="on-background-variant" data-i18n="team-about-description">Conoce al equipo detrás de MediTrack y su visión para mejorar el cuidado geriátrico.</p>
+          </div>
 
-
-        <div id="videoModal" class="modal">
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/vmKJYRnUzHI"
-    id="videoPlayer"
-    title="About The Team"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-</iframe>
-
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/vmKJYRnUzHI"
+              title="About The Team"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>
+
+      
 
       <!-- Team Members -->
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4 justify-content-center">
@@ -974,8 +977,6 @@
             </div>
           </div>
         </div>
-
-        <button id="openModalBtn" data-i18n="modal-video">Ver Video</button>
 
       </div>
     </section>
