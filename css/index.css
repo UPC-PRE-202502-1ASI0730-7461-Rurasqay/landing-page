@@ -3,6 +3,22 @@
   width: auto;
 }
 
+/* Navbar persistente: contraste de texto y ajuste de prioridad */
+.navbar.fixed-top {
+  z-index: 1050;
+}
+.navbar.fixed-top .nav-link {
+  color: #ffc107 !important; /* amarillo para distinguir sobre fondos oscuros */
+}
+.navbar.fixed-top .nav-link:hover,
+.navbar.fixed-top .nav-link:focus {
+  color: #ffd966 !important;
+}
+.navbar.fixed-top .btn-outline-light {
+  color: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+
 .navbar-toggler {
   border: none;
 }

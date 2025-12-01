@@ -175,7 +175,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       "subscribe-note": "* No credit card required to get started",
 
-      "modal-video": "Watch Video"
+      "modal-video": "Watch Video",
+      
+      "footer-terms-conditions": "Terms and Conditions"
 
     },
     es: {
@@ -345,7 +347,9 @@ document.addEventListener("DOMContentLoaded", function () {
       "subscribe-start-free": "Empezar Gratis",
       "subscribe-see-plan": "Ver Planes Premium",
       "subscribe-note": "* No se requiere tarjeta de crédito para empezar",
-      "modal-video": "Ver Video"
+      "modal-video": "Ver Video",
+
+      "footer-terms-conditions": "Términos y Condiciones"
     },
   };
 
